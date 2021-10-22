@@ -29,14 +29,12 @@ projects:
     # - repo-name
 
 social_media:
-  orcid: 0000-0001-5684-2256
-  google_scholar: Hcb6i0gAAAAJ
-  linkedin: orionzhou
-  github: orionzhou
-  email: zhoupenggeni@gmail.com
-  twitter: orionzhou
-  # website: https://orionzhou.github.io
-
+  email: zebosibrian@gmail.com
+  #orcid: 0000-0001-6802-3274
+  linkedin: zebosi-brian-a76b07100
+  github: bzebosi
+  twitter: zebrimas
+  
 topics:
   - name: Python
     web_url: https://www.python.org
