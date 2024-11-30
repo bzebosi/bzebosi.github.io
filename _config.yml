@@ -1,7 +1,34 @@
-title: "My GitHub Page"
-description: "A personal site built using GitHub Pages and Jekyll."
-theme: minima   # Default GitHub Pages theme
-author: Brian Zebosi
-email: zebosibrian@gmail.com
-url: "https://bzebosi.github.io"  # Replace <username> with your GitHub username
-baseurl: ""   # Leave empty unless the site is in a subdirectory
+layout: stacked
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by options:
+    - pushed
+    - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+
+social_media:
+  email: zebosibrian@gmail.com
+  orcid: 0000-0001-6802-3274
+  linkedin: zebosi-brian-a76b07100
+  github: bzebosi
+  twitter: zebrimas
