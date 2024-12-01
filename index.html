@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-</head>
-<body>
-    {% include header.html %} <!-- Includes the header -->
-    <main>
-        {{ content }} <!-- Page-specific content is injected here -->
-    </main>
-    {% include footer.html %} <!-- Includes the footer -->
-</body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<!-- Page-Specific Content -->
+<section>
+    <h2>Welcome to My GitHub Page</h2>
+    <p>This is a Jekyll-powered site hosted on GitHub Pages. Using includes makes development easier!</p>
+</section>
 
