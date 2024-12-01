@@ -3,31 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My GitHub Page</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>{{ page.title }}</title>
 </head>
 <body>
-    <header>
-        <h1>My GitHub Page</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    {% include header.html %} <!-- Includes the header -->
     <main>
-        <h2>Welcome!</h2>
-        <p>This is a static website hosted on GitHub Pages.</p>
+        {{ content }} <!-- Page-specific content is injected here -->
     </main>
-    <footer>
-        <p>© 2024 Brian Zebosi. All rights reserved.</p>
-        <p>
-            <a href="https://github.com/bzebosi">GitHub</a> |
-            <a href="https://twitter.com/bzebosi">Twitter</a>
-        </p>
-    </footer>
+    {% include footer.html %} <!-- Includes the footer -->
 </body>
 </html>
+
