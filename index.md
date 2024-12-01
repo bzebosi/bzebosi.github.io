@@ -1,10 +1,8 @@
 ---
-layout: default
-title: Home
+layout: home
+category: home
 ---
 
-# Welcome to My GitHub Page
-I'm Brian Zebosi, a passionate researcher in bioinformatics and plant genomics.
+Am a Graduate Research and Teaching Assistant in [Genetics, Development, and Cell Biology Department](https://www.gdcb.iastate.edu/) at Iowa State University in [Dr. Erik Vollbrecht's Lab](https://vollbrechtlab.gdcb.iastate.edu/). 
 
-## About Me
-I combine computational data analysis and experimental techniques to understand plant development.
+
